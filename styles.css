@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing:border-box;
+}
+body {
+    background: #080808;
+    color: #fff;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 60px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+.home{
+    font-size:45px;
+    background: url(foto/fakhri2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h1 span{
+    color: #00abf0;
+}	
+#about{
+    padding: 100px 0;
+    color:  #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.paragraf{
+    font-size: 30px;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+}
+
+.tab-content ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 30px
+}
+.tab-content ul li span{
+    color: #0ab7c7;
+    font-size: 30px;
+}
+.sub-title{
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 10px 10%;
+}
+.social-icon{
+   font-size: 50px;
+   padding: 10px 10%;
+   max-width: 600px;
+}
